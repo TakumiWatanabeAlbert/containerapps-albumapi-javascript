@@ -3,6 +3,15 @@ on:
 
   # 手動実行用トリガー
   workflow_dispatch:     
+  
+  # Add a trigger
+  # 自動実行用トリガー
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
+    
 # Add env
 env:
   # Add envs
