@@ -1,11 +1,7 @@
 name: Trigger auto deployment
 on:
 # Add env
-env:
-  CONTAINER_REGISTRY: cicd19951108on575toi5u4jm.azurecr.io  # ACR のドメイン (~.azurecr.io) をこちらに設定
-  # 手動実行用トリガー
   workflow_dispatch:     
-  
   # Add a trigger
   # 自動実行用トリガー
   push:
