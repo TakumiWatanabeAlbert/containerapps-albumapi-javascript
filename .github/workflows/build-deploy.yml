@@ -8,7 +8,7 @@ env:
   # Add envs
   CONTAINER_REGISTRY: cicd19951108on575toi5u4jm.azurecr.io # ACR のドメイン (~.azurecr.io) をこちらに設定
   RESOURCE_GROUP_NAME: Handson01-CICD # 準備タスクで作成されたリソースグループ名をここに記載
-  CONTAINERAPP_NAME: api-app  # 準備タスクで作成された API Container App 名をここに記載
+  CONTAINERAPP_NAME: ctapp-demo-api  # 準備タスクで作成された API Container App 名をここに記載
 jobs:
   build:
     runs-on: ubuntu-18.04
